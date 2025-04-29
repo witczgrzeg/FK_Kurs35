@@ -12,11 +12,8 @@
 **drugi_refren**  
 
 
-**Zwrotka 3**  
-Teraz wiem – nie uciekam przed losem,  
-To, co boli, jest częścią mnie też.  
-I choć droga wciąż pyli pod stopą,  
-Każdy krok niesie nowy sens.
+**trzecia_zwrotka**  
+
 
 **Refren (ostatni raz, mocniej)**  
 Bo ja idę pod wiatr, nie bojąc się już,  
