@@ -9,10 +9,10 @@
 **druga_zwrotka**  
 
 
-**drugi_refren**  
+**pierwszy_refren**  
 
 
 **trzecia_zwrotka**  
 
 
-**trzeci_refren**  
+**pierwszy_refren**  
