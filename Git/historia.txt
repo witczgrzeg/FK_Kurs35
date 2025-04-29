@@ -1,0 +1,867 @@
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~
+$ cd Desktop/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop
+$ ls
+'Amazon Chime.lnk'*   desktop.ini  'Kurs Python'/   Slack.lnk*  'Zoom Workplace.lnk'*
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop
+$ cd ur
+bash: cd: ur: No such file or directory
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop
+$ cd Kurs\ Python/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python
+$ ls
+Future_Collars/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python
+$ ls
+Future_Collars/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python
+$ cd Future_Collars/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars
+$ ls
+FK_Kurs35/  Git/  kurs_35/  Log.txt  Notatki.txt  Python1/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars
+$ cd FK_Kurs35/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35
+$ mkdir Git
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35
+$ ls
+Git/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35
+$ mkdir zajecia_1
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35
+$ mkdir zajecia_2
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35
+$ mkdir zajecia_3
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35
+$ git init
+Initialized empty Git repository in C:/Users/witcgrze/Desktop/Kurs Python/Future_Collars/FK_Kurs35/.git/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (master)
+$ ls
+Git/  zajecia_1/  zajecia_2/  zajecia_3/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (master)
+$ git remote add origin https://github.com/witczgrzeg/FK_Kurs35.git
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (master)
+$ git branch -M main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/witczgrzeg/FK_Kurs35.git'
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git config user.name
+witczgrzeg
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git config user.mail
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git config user.email
+grzegorz.witczak.gw@gmail.com
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ cd Git/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ gitr status
+bash: gitr: command not found
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ cd ...
+bash: cd: ...: No such file or directory
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ cd ..
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ ls
+Git/  zajecia_1/  zajecia_2/  zajecia_3/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git add Git/ zajecia_1/ zajecia_2/ zajecia_3/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Git/piosenka.txt
+
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git commit -m "stworzenie pilku piosenka.txt"
+[main (root-commit) f49076d] stworzenie pilku piosenka.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git/piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git push --set-upstream origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 273 bytes | 68.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/witczgrzeg/FK_Kurs35.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git/piosenka.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ ls
+Git/  zajecia_1/  zajecia_2/  zajecia_3/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git add Git/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Git/piosenka.txt
+
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git commit -m "dodanie tekstu piosenki do piosenka.txt
+> "
+[main 5894a5b] dodanie tekstu piosenki do piosenka.txt
+ 1 file changed, 37 insertions(+)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 889 bytes | 222.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   f49076d..5894a5b  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35 (main)
+$ cd Git/
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch pierwsza_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch druga_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch trzecia_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch pierwszy_refren.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch drugi_refren.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch trzeci_refren.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        druga_zwrotka.txt
+        drugi_refren.txt
+        pierwsza_zwrotka.txt
+        pierwszy_refren.txt
+        trzeci_refren.txt
+        trzecia_zwrotka.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add druga_zwrotka.txt drugi_refren.txt pierwsza_zwrotka.txt pierwszy_refren.txt trzeci_refren.txt trzecia_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   druga_zwrotka.txt
+        new file:   drugi_refren.txt
+        new file:   pierwsza_zwrotka.txt
+        new file:   pierwszy_refren.txt
+        new file:   trzeci_refren.txt
+        new file:   trzecia_zwrotka.txt
+
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "stworzenie plików dla kazdej zwrotki i refrenu"
+[main 8a02fb7] stworzenie plików dla kazdej zwrotki i refrenu
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git/druga_zwrotka.txt
+ create mode 100644 Git/drugi_refren.txt
+ create mode 100644 Git/pierwsza_zwrotka.txt
+ create mode 100644 Git/pierwszy_refren.txt
+ create mode 100644 Git/trzeci_refren.txt
+ create mode 100644 Git/trzecia_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 396 bytes | 132.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   5894a5b..8a02fb7  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   druga_zwrotka.txt
+        modified:   drugi_refren.txt
+        modified:   pierwsza_zwrotka.txt
+        modified:   pierwszy_refren.txt
+        modified:   piosenka.txt
+        modified:   trzeci_refren.txt
+        modified:   trzecia_zwrotka.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git checkout -- druga_zwrotka.txt drugi_refren.txt pierwsza_zwrotka.txt pierwszy_refren.txt piosenka.txt trzeci_refren.txt trzecia_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   pierwsza_zwrotka.txt
+        modified:   piosenka.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add pierwsza_zwrotka.txt piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "oddzielenie pierwsza zwrotka do pliku pierwsza_zwrotka.txt z pliku piosenka.txt"
+[main bbed425] oddzielenie pierwsza zwrotka do pliku pierwsza_zwrotka.txt z pliku piosenka.txt
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 564 bytes | 141.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   8a02fb7..bbed425  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   pierwszy_refren.txt
+        modified:   piosenka.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add pierwszy_refren.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "oddzielenie drugiej zwrotka do pliku druga_zwrotka.txt z pliku piosenka.txt"
+[main 7bfb737] oddzielenie drugiej zwrotka do pliku druga_zwrotka.txt z pliku piosenka.txt
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 595 bytes | 198.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   bbed425..7bfb737  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   druga_zwrotka.txt
+        modified:   piosenka.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add druga_zwrotka.txt piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "oddzielenie drugiej zwrotka do pliku druga_zwrotka.txt z pliku piosenka.txt"
+[main 5a530b2] oddzielenie drugiej zwrotka do pliku druga_zwrotka.txt z pliku piosenka.txt
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   drugi_refren.txt
+        modified:   piosenka.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add drugi_refren.txt piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "dodanie drugiego refrenu z piosenka.txt do drugi_refren.txt"
+[main 74c2e19] dodanie drugiego refrenu z piosenka.txt do drugi_refren.txt
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 929 bytes | 132.00 KiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   7bfb737..74c2e19  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   piosenka.txt
+        modified:   trzecia_zwrotka.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add piosenka.txt trzecia_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m " dodanie trzeciej zwrotki z pliku piosenka.txt do pliku trzecia_zwrotka.txt
+> "
+[main febc9a6]  dodanie trzeciej zwrotki z pliku piosenka.txt do pliku trzecia_zwrotka.txt
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 553 bytes | 184.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   74c2e19..febc9a6  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add trzeci_refren.txt piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "dodanie z pliku piosenka trzeciego refrenu z piosenka.txt do trzeci_refren.txt"
+[main 030d342] dodanie z pliku piosenka trzeciego refrenu z piosenka.txt do trzeci_refren.txt
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 571 bytes | 81.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   febc9a6..030d342  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   trzeci_refren.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add trzeci_refren.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "usunieto ostatnia linijke z pliku trzeci_refren.txt"
+[main 57ff90b] usunieto ostatnia linijke z pliku trzeci_refren.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 362 bytes | 120.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   030d342..57ff90b  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git revert
+usage: git revert [--[no-]edit] [-n] [-m <parent-number>] [-s] [-S[<keyid>]] <commit>...
+   or: git revert (--continue | --skip | --abort | --quit)
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    --commit              opposite of --no-commit
+    -e, --[no-]edit       edit the commit message
+    -s, --[no-]signoff    add a Signed-off-by trailer
+    -m, --[no-]mainline <parent-number>
+                          select mainline parent
+    --[no-]rerere-autoupdate
+                          update the index with reused conflict resolution if possible
+    --[no-]strategy <strategy>
+                          merge strategy
+    -X, --[no-]strategy-option <option>
+                          option for merge strategy
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+    --[no-]reference      use the 'reference' format to refer to commits
+
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git log
+commit 57ff90be2a4ff510a0a31c0706cd4304e963b970 (HEAD -> main, origin/main)
+commit 57ff90be2a4ff510a0a31c0706cd4304e963b970 (HEAD -> main, origin/main)
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:28:49 2025 +0200
+
+    usunieto ostatnia linijke z pliku trzeci_refren.txt
+
+commit 030d342c0c6044487cb5d52ea81df0668d32d979
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:27:14 2025 +0200
+
+    dodanie z pliku piosenka trzeciego refrenu z piosenka.txt do trzeci_refren.txt
+
+commit febc9a6d5f7189c5eb06a42726601c062b6277ae
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:25:35 2025 +0200
+
+     dodanie trzeciej zwrotki z pliku piosenka.txt do pliku trzecia_zwrotka.txt
+
+commit 74c2e197e65792a4283847748564bf3008c7a75b
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:23:58 2025 +0200
+
+    dodanie drugiego refrenu z piosenka.txt do drugi_refren.txt
+
+commit 5a530b2d01335d8b0b897471ec55a47333955c35
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:22:15 2025 +0200
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git revert 57ff90be2a4ff510a0a31c0706cd4304e963b970
+[main 6a05dc8] Revert "usunieto ostatnia linijke z pliku trzeci_refren.txt"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git log
+commit 6a05dc8ad1870b20d8b9ea8e80a61e7bee9fb592 (HEAD -> main)
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:29:56 2025 +0200
+
+    Revert "usunieto ostatnia linijke z pliku trzeci_refren.txt"
+
+    This reverts commit 57ff90be2a4ff510a0a31c0706cd4304e963b970.
+
+commit 57ff90be2a4ff510a0a31c0706cd4304e963b970 (origin/main)
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:28:49 2025 +0200
+
+    usunieto ostatnia linijke z pliku trzeci_refren.txt
+
+commit 030d342c0c6044487cb5d52ea81df0668d32d979
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:27:14 2025 +0200
+
+    dodanie z pliku piosenka trzeciego refrenu z piosenka.txt do trzeci_refren.txt
+
+commit febc9a6d5f7189c5eb06a42726601c062b6277ae
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:25:35 2025 +0200
+
+     dodanie trzeciej zwrotki z pliku piosenka.txt do pliku trzecia_zwrotka.txt
+
+commit 74c2e197e65792a4283847748564bf3008c7a75b
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    drugi_refren.txt
+        modified:   piosenka.txt
+        deleted:    trzeci_refren.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git add drugi_refren.txt trzeci_refren.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    drugi_refren.txt
+        modified:   piosenka.txt
+        deleted:    trzeci_refren.txt
+
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git commit -m "usuniecie drugi_refre.txt i trzeci_refren.txt, zastapenie nazwy refrenow w pliku piosenka.t
+xt na pierwszy_refern"
+[main 37f7a70] usuniecie drugi_refre.txt i trzeci_refren.txt, zastapenie nazwy refrenow w pliku piosenka.txt na pierwszy_refern
+ 3 files changed, 2 insertions(+), 10 deletions(-)
+ delete mode 100644 Git/drugi_refren.txt
+ delete mode 100644 Git/trzeci_refren.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git push
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 793 bytes | 158.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/witczgrzeg/FK_Kurs35.git
+   57ff90b..37f7a70  main -> main
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git log -p piosenka.txt
+commit 37f7a70bee919bd76b44232c76979bcc35d37239 (HEAD -> main, origin/main)
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:34:27 2025 +0200
+
+    usuniecie drugi_refre.txt i trzeci_refren.txt, zastapenie nazwy refrenow w pliku piosenka.txt na pierwszy_refern
+
+diff --git a/Git/piosenka.txt b/Git/piosenka.txt
+index 59976ca..5a8eaa0 100644
+--- a/Git/piosenka.txt
++++ b/Git/piosenka.txt
+@@ -9,10 +9,10 @@
+ **druga_zwrotka**
+
+
+-**drugi_refren**
++**pierwszy_refren**
+
+
+ **trzecia_zwrotka**
+
+
+-**trzeci_refren**
++**pierwszy_refren**
+
+commit 030d342c0c6044487cb5d52ea81df0668d32d979
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git log -p pierwsza_zwrotka.txt druga_zwrotka.txt trzecia_zwrotka.txt pierwszy_refren.txt
+commit febc9a6d5f7189c5eb06a42726601c062b6277ae
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:25:35 2025 +0200
+
+     dodanie trzeciej zwrotki z pliku piosenka.txt do pliku trzecia_zwrotka.txt
+
+diff --git a/Git/trzecia_zwrotka.txt b/Git/trzecia_zwrotka.txt
+index e69de29..2efc1e6 100644
+--- a/Git/trzecia_zwrotka.txt
++++ b/Git/trzecia_zwrotka.txt
+@@ -0,0 +1,4 @@
++Teraz wiem – nie uciekam przed losem,
++To, co boli, jest częścią mnie też.
++I choć droga wciąż pyli pod stopą,
++Każdy krok niesie nowy sens.
+\ No newline at end of file
+
+commit 5a530b2d01335d8b0b897471ec55a47333955c35
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:22:15 2025 +0200
+
+    oddzielenie drugiej zwrotka do pliku druga_zwrotka.txt z pliku piosenka.txt
+
+diff --git a/Git/druga_zwrotka.txt b/Git/druga_zwrotka.txt
+index e69de29..1636636 100644
+--- a/Git/druga_zwrotka.txt
++++ b/Git/druga_zwrotka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ git log
+commit 37f7a70bee919bd76b44232c76979bcc35d37239 (HEAD -> main, origin/main)
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:34:27 2025 +0200
+
+    usuniecie drugi_refre.txt i trzeci_refren.txt, zastapenie nazwy refrenow w pliku piosenka.txt na pierwszy_refern
+
+commit 6a05dc8ad1870b20d8b9ea8e80a61e7bee9fb592
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:29:56 2025 +0200
+
+    Revert "usunieto ostatnia linijke z pliku trzeci_refren.txt"
+
+    This reverts commit 57ff90be2a4ff510a0a31c0706cd4304e963b970.
+
+commit 57ff90be2a4ff510a0a31c0706cd4304e963b970
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:28:49 2025 +0200
+
+    usunieto ostatnia linijke z pliku trzeci_refren.txt
+
+commit 030d342c0c6044487cb5d52ea81df0668d32d979
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:27:14 2025 +0200
+
+    dodanie z pliku piosenka trzeciego refrenu z piosenka.txt do trzeci_refren.txt
+
+commit febc9a6d5f7189c5eb06a42726601c062b6277ae
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:25:35 2025 +0200
+
+     dodanie trzeciej zwrotki z pliku piosenka.txt do pliku trzecia_zwrotka.txt
+
+commit 74c2e197e65792a4283847748564bf3008c7a75b
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:23:58 2025 +0200
+
+    dodanie drugiego refrenu z piosenka.txt do drugi_refren.txt
+
+commit 5a530b2d01335d8b0b897471ec55a47333955c35
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:22:15 2025 +0200
+
+    oddzielenie drugiej zwrotka do pliku druga_zwrotka.txt z pliku piosenka.txt
+
+commit 7bfb737e5e7672d8002e13161b81c96e5976383b
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:20:00 2025 +0200
+
+    oddzielenie drugiej zwrotka do pliku druga_zwrotka.txt z pliku piosenka.txt
+
+commit bbed425374c383f232e1ac157a12d2d864554656
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:18:11 2025 +0200
+
+    oddzielenie pierwsza zwrotka do pliku pierwsza_zwrotka.txt z pliku piosenka.txt
+
+commit 8a02fb762d5d727df849b77a6e653f10d1582d6d
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:10:41 2025 +0200
+
+    stworzenie plików dla kazdej zwrotki i refrenu
+
+commit 5894a5be077f1843b5a89b1726ff894b4a1cef39
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:06:13 2025 +0200
+
+    dodanie tekstu piosenki do piosenka.txt
+
+commit f49076d5999ecd1f37f3c1b98bfd913bdcd11da6
+Author: witczgrzeg <grzegorz.witczak.gw@gmail.com>
+Date:   Tue Apr 29 12:02:26 2025 +0200
+
+    stworzenie pilku piosenka.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$ touch historia.txt
+
+witcgrze@LCJ3-5CG1462WRP MINGW64 ~/Desktop/Kurs Python/Future_Collars/FK_Kurs35/Git (main)
+$
