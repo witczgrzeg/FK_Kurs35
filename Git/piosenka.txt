@@ -3,11 +3,8 @@
 **pierwsza_zwrotka**  
 
 
-**Refren**  
-Ale idę pod wiatr, choć nie wiem, gdzie ląd,  
-Z sercem jak żagiel, co szuka swój front.  
-Może jutro mnie znajdziesz, gdy zgaśnie już blask,  
-W tym miejscu, gdzie kończy się czas.
+**pierwszy_refren**  
+
 
 **Zwrotka 2**  
 W kieszeni list, którego nie wysłałem,  
