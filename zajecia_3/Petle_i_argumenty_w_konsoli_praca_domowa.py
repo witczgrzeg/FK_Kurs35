@@ -81,15 +81,18 @@ Najwięcej pustych kilogramów ma paczka 13
 
 print("Witam w systemie obsługi ładowania paczek")
 
-liczba_paczek= int(input("Liczba paczek chcesz wysłać? \n "))
+liczba_paczek= int(input("Liczba paczek chcesz wysłać? \n ")) #ile paczek ma do wysłania
 
 kg_wyslanych = 0
-kg_per_box = 0
-ilosc_paczek = []
+kg_per_box = [] #lista z wagą każdej liczba_paczek
+ilosc_paczek = [] #może do sumowania liczby boxów z paczkami ??
 
 for paczka in range(liczba_paczek):
     kg_per_box = int(input(f"Podaj wagę {paczka+1}: \n"))
-    ilosc_paczek.append(kg_per_box)
+
+    if kg_per_box <1 or kg_per_box > 10:
+        print ("Paczka przekracza dopuszczalną wagę i będzie załadowana do nowego kontenera!")
+        ilosc_paczek.append(kg_per_box)
 
 print(f"ilosc paczek = {ilosc_paczek}")
 print(f"ile kg załadowano = {kg_wyslanych}")
