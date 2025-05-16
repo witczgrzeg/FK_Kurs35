@@ -1,5 +1,5 @@
 """
-ZADANIE
+Pętle i argumenty w konsoli
 
 Napisz program do obsługi ładowarki paczek. Po uruchomieniu, aplikacja pyta ile paczek chcesz wysłać, a następnie wymaga podania wagi dla każdej z nich.
 
@@ -49,51 +49,51 @@ Wysłano 7 kg
 Suma pustych kilogramów: 13kg
 Najwięcej pustych kilogramów ma paczka 13
 
-
 """
-# print("Witam w naszym systemie paczek!")
-#
-# liczba_produktow = int(input("Podaj liczba produktów: \n")) #wpisuje liczbę paczek
-#
-# pelna_paczka = []
-# suma_paczek = []
-# waga_paczki = 0
-#
-# for p in range(liczba_produktow):
-#     waga_prod= int(input(f"Podaj wagę paczki {p + 1} \n"))
-#
-#     if waga_prod < 1 or waga_prod > 10:
-#         print("Produkt przekracza limit wagowy (1–10 kg). Przerywam dodawanie paczek.")
-#         break
-#     if waga_paczki + waga_prod > 20:
-#         suma_paczek.append(pelna_paczka)
-#         pelna_paczka = [waga_prod]
-#         waga_paczki=waga_prod
-#     else:
-#         pelna_paczka.append(waga_prod)
-#         waga_paczki += waga_prod
-#
-# if pelna_paczka:
-#     suma_paczek.append(pelna_paczka)
-#
-# print(suma_paczek)
-# print(pelna_paczka)
+print("Witam w naszym systemie paczek!")
 
-print("Witam w systemie obsługi ładowania paczek")
+liczba_paczek_razem = 1
+numer_najlżejszej_paczki = 1
+waga_calkowita = 0
+suma_pustych_KG = 0
+najlzejsza_paczka = 20
+waga_paczki = 0
 
-liczba_paczek= int(input("Liczba paczek chcesz wysłać? \n ")) #ile paczek ma do wysłania
 
-kg_wyslanych = 0
-kg_per_box = [] #lista z wagą każdej liczba_paczek
-ilosc_paczek = [] #może do sumowania liczby boxów z paczkami ??
+liczba_produktow = int(input("Podaj liczbę produktów: \n"))
 
-for paczka in range(liczba_paczek):
-    kg_per_box = int(input(f"Podaj wagę {paczka+1}: \n"))
 
-    if kg_per_box <1 or kg_per_box > 10:
-        print ("Paczka przekracza dopuszczalną wagę i będzie załadowana do nowego kontenera!")
-        ilosc_paczek.append(kg_per_box)
+for produkt in range(liczba_produktow):
+    waga_elementu = int(input(f"Podaj wagę elementu #{produkt + 1}: \n"))
 
-print(f"ilosc paczek = {ilosc_paczek}")
-print(f"ile kg załadowano = {kg_wyslanych}")
-print(f"ile kg jest w jednym box = {kg_per_box}")
+    if waga_elementu <1 or waga_elementu >10:
+        print("Koniec dodawania paczek.")
+        break
+    waga_calkowita += waga_elementu
+
+    if waga_elementu + waga_paczki > 20:
+        if waga_paczki < najlzejsza_paczka:
+            najlzejsza_paczka = waga_paczki
+            numer_najlżejszej_paczki = liczba_paczek_razem
+
+        liczba_paczek_razem += 1
+        waga_paczki = waga_elementu
+    else:
+        waga_paczki += waga_elementu
+if waga_paczki > 0:
+
+    if waga_paczki < najlzejsza_paczka:
+        najlzejsza_paczka = waga_paczki
+        numer_najlżejszej_paczki = liczba_paczek_razem
+
+liczba_pustych_kg = 20 * liczba_paczek_razem - waga_calkowita
+
+print("Podsumowanie:")
+#ilość wysłanych paczek
+print(f"Wysłano {liczba_paczek_razem} paczek.")
+#łączna waga wszystkich paczek
+print(f"Wysłano {waga_calkowita} KG.")
+#suma pozostałych KG w paczce, żeby nie przekraczać 20KG
+print(f"Suma pustych kilogramów: {liczba_pustych_kg}")
+#trzeba podać która paczka waży najmniej
+print(f"Najwięcej pustych kilogramów ma paczka: {numer_najlżejszej_paczki}")
