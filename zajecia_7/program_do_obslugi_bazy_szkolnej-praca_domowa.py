@@ -25,6 +25,7 @@ Polecenie "uczeń" - Należy pobrać imię i nazwisko uczenia, program ma wypisa
 Polecenie "nauczyciel" - Należy pobrać imię i nazwisko nauczyciela, program ma wypisać wszystkie klasy, które prowadzi nauczyciel.
 Polecenie "wychowawca" - Należy pobrać imię i nazwisko nauczyciela, a program ma wypisać wszystkich uczniów, których prowadzi wychowawca.
 Polecenie "koniec" - Wraca do pierwszego menu.
+
 """
 
 class Nauczyciel:
