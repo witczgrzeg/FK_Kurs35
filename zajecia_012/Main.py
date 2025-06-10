@@ -1,0 +1,1 @@
+print("początek nowych zajęć")
