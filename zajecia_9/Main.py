@@ -1,1 +1,0 @@
-print("początek nowych zajęć")
