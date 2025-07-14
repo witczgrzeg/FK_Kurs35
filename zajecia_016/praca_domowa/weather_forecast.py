@@ -44,12 +44,10 @@ class WeatherForecast:
             return None
 
     def __getitem__(self, key):
-        # key = (city, date)
         city, date = key
         return self.data.get(city, {}).get(date, None)
 
     def __setitem__(self, key, value):
-        # key = (city, date), value = "Będzie padać"
         city, date = key
         if city not in self.data:
             self.data[city] = {}
@@ -57,7 +55,6 @@ class WeatherForecast:
         self._save_data()
 
     def __iter__(self):
-        # iterator po wszystkich datach występujących w danych (unikalne daty)
         all_dates = set()
         for city_data in self.data.values():
             all_dates.update(city_data.keys())
@@ -70,7 +67,6 @@ class WeatherForecast:
         return next(self._iter_keys)
 
     def items(self):
-        # generator zwracający (data, opis_pogody) ze wszystkich miast i dat
         for city_data in self.data.values():
             for date, forecast in city_data.items():
                 yield date, forecast
