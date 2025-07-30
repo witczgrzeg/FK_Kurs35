@@ -39,6 +39,3 @@ def main():
         weather_forecast[(city, user_date)] = forecast
 
     print(f"\n Data: {user_date}\n Lokalizacja: {city}\n Prognoza: {forecast}")
-
-if __name__ == "__main__":
-    main()
