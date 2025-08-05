@@ -29,43 +29,6 @@ def index():
 @systemks_blueprint.route('/historia/<int:start>/<int:koniec>')
 def historia(start, koniec):
     stan = _get_product_state()
-    historia = stan['historia']
-
-    if start is not None and koniec is not None:
-        historia = historia[max(0, start):min(len(historia), koniec)]
-
-    return render_template("historia.html", saldo=stan['saldo'], historia=historia)
-from flask import Blueprint, render_template, request
-from Prosty_sys_księgowy import (
-    _get_product_state,
-    change_saldo,
-    create_new_product,
-    update_product
-)
-
-systemks_blueprint = Blueprint('strona_glowna', __name__)
-
-
-@systemks_blueprint.route('/', methods=['GET', 'POST'])
-def index():
-    if request.method == 'POST':
-        match request.form.get("form_type"):
-            case "add_product":
-                create_new_product(request.form)
-            case "buy_product":
-                update_product(request.form)
-            case "update_saldo":
-                try:
-                    change_saldo(float(request.form.get("saldo", 0)))
-                except (ValueError, TypeError):
-                    pass
-    return render_template("strona_glowna.html", **_get_product_state())
-
-
-@systemks_blueprint.route('/historia/', defaults={'start': None, 'koniec': None})
-@systemks_blueprint.route('/historia/<int:start>/<int:koniec>')
-def historia(start, koniec):
-    stan = _get_product_state()
     pelna_historia = stan['historia']
     page_size = 10
 
