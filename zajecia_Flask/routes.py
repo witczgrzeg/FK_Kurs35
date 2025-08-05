@@ -32,7 +32,6 @@ def historia(start, koniec):
     pelna_historia = stan['historia']
     page_size = 10
 
-    # Domyślne wartości, jeśli nie podano zakresu
     if start is None or koniec is None:
         start = 0
         koniec = page_size
@@ -42,7 +41,6 @@ def historia(start, koniec):
 
     fragment_historia = pelna_historia[start:koniec]
 
-    # Przyciski nawigacji
     prev_start = max(0, start - page_size)
     prev_koniec = start
 
